@@ -1,0 +1,467 @@
+body{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1,h2,h3,h5,h6{
+
+    margin: 0;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    line-height: 100%;
+
+}
+
+h4{
+    color: #F0F1F0;
+    margin: 0;
+    font-size: 24px;
+    font-family: 'Playfair Display', serif;
+    font-weight: 400;
+    line-height: 100%;
+}
+
+a{
+    text-decoration: none;
+
+}
+
+p{
+
+    color: #666666;
+    line-height: 140%;
+    margin: 30PX 0;
+}
+
+h2{
+
+    color: #473C38;
+    font-size: 48px;
+    margin-bottom: 60px;
+}
+
+
+/******************* utilitarios ******************/
+
+.text-center{
+    text-align: center;
+}
+
+.btn{
+    display: inline-block;
+    color: #F0F1F0;
+    background-color: #473C38;
+    padding: 10px 25px;
+    border-radius:30px;
+    border: none;
+    cursor: pointer;
+
+}
+
+.btn-block{
+    display: block !important;
+    text-align: center;
+}
+
+.image-shadow{
+
+    filter: drop-shadow(20px 20px 50px rgb(27, 26, 26));} /* dombra da imagem*/
+
+
+/*********************** utilitarios******************/
+
+.hero-section{
+
+    background-color:#473C38 ;
+    padding-top: 30px;  /* distancia do topo*/
+    padding-bottom: 112px; /* margem paraparte de baixo*/
+
+}
+
+.container{
+    padding: 0 15px;
+     /* largura do container;*/
+    height: auto;
+    margin: 0 auto;
+    width: 1220px;
+
+}
+
+.header{
+
+    display: flex; /* deixar elementos em linha / um ao lado do outro*/
+    justify-content: space-between; /*deixar um espaço entre um e outro */
+    align-items: center; /*trazer o espaçamento para o centro como se fosse uma margem*/
+    
+}
+
+
+
+.menu a{
+
+    font-family: 'Playfair Display', serif;
+    color: #FFFFFF; /* cor da fonte*/
+    text-decoration: none; /*tirar o sublinhado dos links*/
+    margin-left: 70px; /* espaçamento da direita para esquerda <--- */ 
+    /*display: inline-block: se quiser dar zoom*/
+
+}
+
+.menu a:hover{
+    
+    color: #FFE5B6; /* quando o mose passa por cima do link*/
+    
+    /*font-size: se quiser almentar a fonte*/
+    /*transform: scale(1.5) : se quiser dar zoom*/
+
+}
+
+
+.flex-hero{
+
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 112px;
+}
+
+.container-hero{
+    width: 643px;
+
+}
+
+.content-hero a{
+
+    color: #473C38;
+    background-color: #C2B19C;
+    font-family: 'Playfair Display', serif;
+    padding: 15px 50px;
+    display: inline-block; /* ssempre usar em botao, padronizado par poder trabalhar*/
+    margin-top: 10px;
+    
+}
+
+.image-hero{
+
+    filter: drop-shadow(20px 20px 50px rgb(27, 26, 26));}
+
+
+.content-hero a:hover{
+
+    background-color: #B2935B;
+}
+
+.content-hero h1{
+    color: #FFFFFF;
+    font-size: 60px;
+
+}
+
+.content-hero p{
+    width: 450px;
+    color:#FFFFFF;
+    line-height: 140%;
+
+}
+
+
+
+.presentation{
+
+    padding: 100px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.content-presentation{
+
+    width: 643px;
+    
+}
+
+
+
+.cards-section{
+    background-color: #F0F1F0;
+    padding: 50px;
+}
+
+.cards-flex{
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.card{
+    width: 356px;
+    background-color: #ffffff;
+    padding: 30px;
+    box-sizing: border-box; /*Faz com que o padding e a borda nao interfira nas dimensoes*/
+    border-radius: 5px;
+    box-shadow: 3px 3px 10px rgba(204, 204, 204, 0.25);
+}
+
+.card:hover{
+
+    box-shadow: 5px 5px 10px rgba(7, 7, 7, 0.25);
+}
+
+.card h3{
+
+    color: #473C38;
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+.comment{
+
+    padding: 50px 0;
+    text-align: center;
+
+}
+
+.txt-comment{
+
+    color: #473C38;
+    font-size: 40px;
+    font-family: 'Playfair Display', serif;
+    margin: 20px 0;
+}
+
+.news{
+    background-color:#C2B19C;
+    padding: 50px 0;
+
+
+}
+
+.news form{
+
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.news .btn{
+
+    height: 32px;
+}
+
+.form-group label{
+
+    display: block;
+    color: #473C38;
+}
+
+.form-group input{
+
+    width: 450px;
+    height: 30px;
+    border: none;
+}
+
+.footer{
+
+    background-color:#473C38 ;
+    padding: 50px 0;
+}
+
+.footer .container{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.card-footer{
+    width: 356px;
+
+}
+
+.card-footer h4{
+
+    color: white;
+    font-size: 24px;
+
+}
+
+.card-footer p{
+    color: white;
+    margin-bottom: 0;
+
+}
+
+@media (max-width: 1150px){
+
+h2{
+    font-size: 28px;
+    margin-bottom: 40px;
+}
+
+
+    /* hero-sectio*/
+
+.menu{
+   /* display: none;*/
+    width: 100%;
+    height: calc(100% - 132px);
+    background-color: #B2935B;
+    position: absolute;
+    top: 132px;
+    left: 0;
+    z-index:1000;
+    padding: 15px;
+    box-sizing: border-box;
+
+    transform: translateX(-100%) !important;
+    transition: 0.5s;
+   
+
+}
+
+.menu-open{
+    /*display: block ;*/
+    transform: translateX(0) !important;
+}
+
+.menu a{
+    color: #473C38;
+    display: block;
+    margin: 0%;
+    border-bottom: solid 1px #473C38;
+    padding: 15px 0;
+    
+}
+
+.btn.menu{
+
+}
+.logo img{
+    height: 70px;
+}
+
+.bar{
+
+    width: 40px;
+    height: 3px;
+    margin-bottom: 3px;
+    background-color: white;
+    transition: 0.5s;
+}
+
+.x .bar:nth-child(2){
+    opacity: 0;
+    transform: translate(-100px);
+}
+
+.x .bar:first-child{
+    transform: rotate(45deg) translate(5px,0);
+    transition-delay: 0.5s;
+}
+
+.x .bar:last-child{
+
+    transform: rotate(-45deg) translate(8px, -3px);
+    transition-delay: 1s;
+}
+
+.flex-hero{
+    flex-direction: column;
+    margin-top: 48px;
+}
+
+.content-hero{
+    width: 100%;
+    text-align: center;
+}
+
+.content-hero h1{
+    font-size: 32px;
+}
+
+.content-hero p{
+    width: 100%;
+}
+.image-hero{
+    margin-top: 52px;
+}
+
+.image-hero img{
+
+    max-width: 264px;
+}
+
+/*presentation*/
+
+.image-presentation{
+    
+    display: none;
+
+}
+
+.presentation{
+
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+.content-presentation{
+
+    width: 100%;
+}
+
+
+.cards-flex{
+
+    flex-direction: column;
+    align-items: center;
+    row-gap: 30px; /*vão*/
+
+}
+
+.txt-comment{
+
+    font-size: 24px;
+}
+
+.news form{
+
+    flex-direction: column;
+    align-items: flex-start;
+    row-gap: 10px;
+
+}
+
+.news input{
+
+    width: 100%;
+}
+
+.form-group{
+
+    width: 100%;
+}
+
+.footer .container{
+
+    flex-direction: column;
+    row-gap: 50px;
+
+
+}
+
+.card-footer{
+
+    width: 100%;
+}
+
+}
+
+
+
+
+
+
+
